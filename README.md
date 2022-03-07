@@ -23,9 +23,9 @@ What we have found is that Oahu is a suitable location to open up a surf and ice
 
 ### Additional Queries
 
-'''
+```
 # June
 session.query(Measurement.prcp).filter(extract('month', Measurement.date) == 6).all()
 # December
 session.query(Measurement.prcp).filter(extract('month', Measurement.date) == 12).all()
-'''
+```
